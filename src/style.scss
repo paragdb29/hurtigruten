@@ -1,0 +1,31 @@
+.search-input-container{
+    display: -ms-inline-flexbox;
+    display: -webkit-inline-box;
+    display: inline-flex;
+    height: 3rem;
+    border: 1px solid #9e9e9e;
+    width: 16rem;
+}
+
+
+.icon {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: inherit;
+    padding: 0.75rem;
+    display: inline-block;
+    img{
+        vertical-align: middle;
+    }
+}
+.searchList{
+    list-style: none;
+    margin: auto;
+    padding: 0;
+    width: 15rem;
+    li{
+        border: 1px solid #9e9e9e;
+        padding: 1rem;
+        margin-top: 1rem;
+    }
+}
